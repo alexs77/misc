@@ -1,0 +1,434 @@
+root@app2-ewmon-prod ~ # check_http -I 192.168.213.148 -H www.ariseprogram.org -s "footerContent" --sni -v
+GET / HTTP/1.1
+User-Agent: check_http/v2.0.3 (nagios-plugins 2.0.3)
+Connection: close
+Host: www.ariseprogram.org
+Accept: */*
+
+
+http://192.168.213.148:80/ is 21322 characters
+STATUS: HTTP/1.1 200 OK
+**** HEADER ****
+Server: nginx/1.6.2
+Date: Tue, 10 Mar 2015 08:01:25 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+X-Powered-By: PHP/5.5.9-1ubuntu4
+Set-Cookie: CONCRETE5=tvumga0j6nn0jmr6n69cs5trb1; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding
+**** CONTENT ****
+e72
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>ARISE :: Home</title>
+<meta name="description" content="" />
+<meta name="keywords" content="arise program eliminate prevent child labour labor programme" />
+<meta name="generator" content="concrete5 - 5.6.2.1" />
+<script type="text/javascript">
+var CCM_IMAGE_PATH = "/concrete/images";p';
+var CCM_TOOLS_PATH = "/index.php/tools/required";
+var CCM_BASE_URL = "http://www.ariseprogram.org";
+var CCM_REL = "";
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="/concrete/css/ccm.base.css?v=45fa359c454a8a168faf39c4d7ccf997" />
+<script type="text/javascript" src="/concrete/js/jquery.js?v=45fa359c454a8a168faf39c4d7ccf997"></script>
+<script type="text/javascript" src="/concrete/js/ccm.base.js?v=45fa359c454a8a168faf39c4d7ccf997"></script>
+
+<script type="text/javascript">
+var COOKIES_ALLOWED=false;
+</script>
+<link rel="stylesheet" type="text/css" href="/packages/free_cookies_disclosure/css/cookies_disclosure.css?v=45fa359c454a8a168faf39c4d7ccf997" />
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/packages/free_cookies_disclosure/css/cookies_disclosure_ie.css?v=45fa359c454a8a168faf39c4d7ccf997" /><![endif]-->
+
+<script type="text/javascript">
+var COOKIES_DISCLOSURE_HIDE_INTERVAL=10;
+</script>
+<script type="text/javascript" src="/packages/free_cookies_disclosure/js/disclosure_hide.js?v=45fa359c454a8a168faf39c4d7ccf997"></script>
+<script type="text/javascript" src="/index.php/tools/packages/free_cookies_disclosure/disclosure_i18n_js?v=45fa359c454a8a168faf39c4d7ccf997"></script>
+<script type="text/javascript" src="/packages/free_cookies_disclosure/js/disclosure_ajax_form.js?v=45fa359c454a8a168faf39c4d7ccf997"></script>
+    
+<!-- Site Header Content //-->
+<link rel="stylesheet" media="screen" type="text/css" href="/files/cache/css/arise/css/style.css" />
+<link rel="stylesheet" media="screen" type="text/css" href="/files/cache/css/arise/typography.css" />
+<script type="text/javascript" src="/concrete/themes/arise/js/jquery.cycle2.js"></script>
+<script type="text/javascript" src="/concrete/themes/arise/js/css_selector.js"></script>
+
+<link href='http://fonts.googleapis.com/css?family=Bitter:700' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "a2ab3263-0f9d-4ea8-85f8-2451b25e2e93", doNotHash: false, doNotCopy: false, hashAddressBar: false,onhover: false});</script>
+
+<!--[if gte IE 8]>
+<style>
+ul.nav li a {letter-spacing: -1px;padding: 18px 9px;}
+
+
+</style>
+<![endif]-->
+<script type="text/javascript">
+$( document ).ready(function() {
+ $('ul.lang').show();
+$(".desktop_search_top_box .search_button_desktop").click(function(){
+    if($('.desktop_search .desktop_search_text').is(":visible")){
+    var myVal = $(".desktop_search .desktop_search_text").val();
+    
+        if(myVal !=''){
+            $(".desktop_search #desktop_search_form").submit();
+        }
+    }else{
+        $('.desktop_search .desktop_search_text').show();
+         $('.dclose').show();
+         $('ul.nav').hide();
+        
+        
+    }
+    return;
+     
+});
+$(".dclose").click(function(){
+     $('.desktop_search .desktop_search_text').hide();
+     $('.dclose').hide();
+     $('ul.nav').show();
+     
+
+1000
+      
+});
+
+/*
+
+*/
+
+ if($(".subnav").length){
+    if($(".subnav").is(":empty")){
+        $("p.pageTitle").remove();
+    }
+}
+
+});
+
+
+</script>
+
+</head>
+<body>
+<div id="ccm-cookiesDisclosure" class="disclosure-top">
+    <div class="disclosure-container">
+                    <div class="disclosure-content">
+                <h3>Cookies</h3>            
+                <p>We use cookies to remember your preferences and provide you with the very best experience on our website. Please click the <br>button to approve our use of cookies. However, if you would like to, you can <a title="Privacy &amp; Cookies" href="/client_area/arise/en/site-links/cookies/">change your cookie settings</a> at any time.</p>           
+                            <div class="disclosure-form">
+    <form action="/index.php/cookies_disclosure/" method="post">
+                    <input type="hidden" name="allowCookies" value="1" />
+                            <div class="button">
+            <input type="submit" name="submit" value="Allow Cookies" />
+        </div>
+    </form>
+</div>          </div>
+                <div class="ccm-spacer">&nbsp;</div>
+    </div>
+</div>
+
+
+<div id="wrapper">
+        <div id="headerWrap">
+           <div id="header" class="cfx">
+                <a href="/" title="JTI ARISE" id="logo">
+                   <img src="/concrete/themes/arise/images/logo.png" title="JTI ARISE" alt="JTI ARISE">
+                </a>
+                
+                                <ul id="slideshow_pager"></ul>
+                                <div class="cfx main-nav">
+                 <script type="text/javascript" src="/concrete/blocks/autonav/templates/mobile_menu_arise/js/menu.js "></script>
+<link rel="stylesheet" href="/concrete/blocks/autonav/templates/mobile_menu_arise/view.css" />
+<ul class='sf-menu primary-nav nav'><li style="position:relative;" id="mob-menu124" ><a  title="About ARISE"  href="/en/about-arise" target="_self" >About ARISE</a><img class="mobile_only drop_down_arrow" src="http://www.ariseprogram.org/concrete/themes/arise/images/d.png"><ul class="mobile_only"><li style="position:relative;"><a   href="/en/about-arise/who-we-are" title="Who we are">Who we are</a></li><li style="position:relative;"><a   href="/en/about-arise/how-we-work" title="How we work">How we work</a></li><li style="position:relative;"><a   href="/en/about-arise/our-approach" title="Our approach">Our approach</a></li><li style="position:relative;"><a   href="/en/about-arise/where-we-work" title="Where we work">Where we work</a></li><li style="position:relative;"><a   href="/en/about-arise/support-activities" title="Support activities">Support activities</a></li><li style="position:relative;"><a   href="/en/about-arise/governance" title="Governance">Governance</a><img class="mobile_only drop_down_arrow1" src="http://www.ariseprogram.org/concrete/themes/arise/images/d.png"><ul class="third-level mobile_only"><li><a   href="/en/about-arise/governance/roles-and-responsibilities" title="Roles and responsibilities">Roles and responsibilities</a></li><li><a   href="/en/about-arise/governance/management1" title="Management">Management</a></li></ul></li><li style="position:relative;"><a   href="/en/about-arise/news-and-events" title="News & events">News & events</a></li><li style="position:relative;"><a   href="/en/about-arise/resources" title="Resources">Resources</a></li><li style="position:relative;"><a   href="/en/about-arise/faq" title="FAQs">FAQs</a></li></ul></li><li style="position:relative;" id="mob-menu125" ><a  title="Our partnership"  href="/en/our-partnership" target="_self" >Our partnership</a><img class="mobile_only drop_down_arrow" src="http://www.ariseprogram.org/concrete/themes/arise/images/d.png"><ul class="mobile_only"><li style="position:relative;"><a   href="/en/our-partnership/ilo" title="ILO">ILO</a></li><li style="position:relative;"><a   href="/en/our-partnership/jti" title="JTI">JTI</a></li><li style="position:relative;"><a   href="/en/our-partnership/winrock-international" title="Winrock International">Winrock International</a></li></ul></li><li style="position:relative;" id="mob-menu126" ><a  title="What we do"  href="/en/what-we-do" target="_self" >What we do</a><img class="mobile_only drop_down_arrow" src="http://www.ariseprogram.org/concrete/themes/arise/images/d.png"><ul class="mobile_only"><li
+1000
+ style="position:relative;"><a   href="/en/what-we-do/improve-education-opportunity-and-awareness" title="Education">Education</a><img class="mobile_only drop_down_arrow1" src="http://www.ariseprogram.org/concrete/themes/arise/images/d.png"><ul class="third-level mobile_only"><li><a   href="/en/what-we-do/improve-education-opportunity-and-awareness/raise-awareness" title="Raise awareness">Raise awareness</a></li><li><a   href="/en/what-we-do/improve-education-opportunity-and-awareness/family-support" title="Family support">Family support</a></li><li><a   href="/en/what-we-do/improve-education-opportunity-and-awareness/after-school-program" title="After school program">After school program</a></li><li><a   href="/en/what-we-do/improve-education-opportunity-and-awareness/vocational-training" title="Vocational training">Vocational training</a></li></ul></li><li style="position:relative;"><a   href="/en/what-we-do/increase-economic-empowerment-targeted-communities" title="Economic empowerment">Economic empowerment</a><img class="mobile_only drop_down_arrow1" src="http://www.ariseprogram.org/concrete/themes/arise/images/d.png"><ul class="third-level mobile_only"><li><a   href="/en/what-we-do/increase-economic-empowerment-targeted-communities/conditional-grants" title="Conditional grants">Conditional grants</a></li><li><a   href="/en/what-we-do/increase-economic-empowerment-targeted-communities/income-generating-activities" title="Income-generating activities">Income-generating activities</a></li><li><a   href="/en/what-we-do/increase-economic-empowerment-targeted-communities/model-farm-schools" title="Model Farm Schools">Model Farm Schools</a></li></ul></li><li style="position:relative;"><a   href="/en/what-we-do/improve-legal-and-regulatory-framework" title="Legal frameworks">Legal frameworks</a><img class="mobile_only drop_down_arrow1" src="http://www.ariseprogram.org/concrete/themes/arise/images/d.png"><ul class="third-level mobile_only"><li><a   href="/en/what-we-do/improve-legal-and-regulatory-framework/support-government-implementation-activities" title="Support government implementation activities">Support government implementation activities</a></li><li><a   href="/en/what-we-do/improve-legal-and-regulatory-framework/support-advocacy-improved-legislation" title="Support advocacy for improved legislation">Support advocacy for improved legislation</a></li></ul></li></ul></li><li style="position:relative;" id="mob-menu127" ><a  title="Success stories"  href="/en/success-stories" target="_self" >Success stories</a><img class="mobile_only drop_down_arrow" src="http://www.ariseprogram.org/concrete/themes/arise/images/d.png"><ul class="mobile_only"><li style="position:relative;"><a   href="/en/success-stories/story-one" title="New materials for schools">New materials for schools</a></li><li style="position:relative;"><a   href="/en/success-stories/story-two" title="Mothers at Expotigre">Mothers at Expotigre</a></li><li style="position:relative;"><a   href="/en/success-stories/story-one1" title="Baking entrepreneurs">Baking entrepreneurs</a></li><li style="position:relative;"><a   href="/en/success-stories/story" title="Landcare training">Landcare training</a></li><li style="position:relative;"><a   href="/en/success-stories/story-2" title="Village savings & loans">Village savings & loans</a></li><li style="position:relative;"><a   href="/en/success-stories/mthyoka-village" title="Mthyoka Village">Mthyoka Village</a></li><li style="position:relative;"><a   href="/en/success-stories/story-2-2-2" title="ARISE inspires farmer">ARISE inspires farmer</a></li><li style="position:relative;"><a   href="/en/success-stories/story-2-2-2-2" title="New carpentry skills">New carpentry skills</a></li><li style="position:relative;"><a   href="/en/success-stories/story-celebrations-help-change-childrens-future" title="Celebrations help change children’s future">Celebrations help change children’s future</a></li></ul></li><li style="position:relative;" id="mob-menu128" ><a  title="Contact Us"  href="/en/contact-us" target="_self" >Contact 
+1000
+Us</a></li><li class="mobile_only mobile_search"><a target="_self">Languages</a> <a class="languages selected" href="http://www.ariseprogram.org/en" target="_self">EN</a><a href="#" class="languages lang-pt " target="_self"  href="http://www.ariseprogram.org/pt">PT</a></li><li class="mobile_only mobile_search"><div class="mobile_only">
+<form action="/index.php/en/search/" method="get" class="ccm-search-block-form">
+  <input type="text" name="query" placeholder="Search"  class="ccm-search-block-text" id="search" title="search">
+  <span>
+  <input type="submit" value="" class="search_button" id="searchsubmit">
+  </span>
+</form>
+</div>
+
+<div class="dsearch">
+<form action="/index.php/en/search/" method="get" id="desktop_search_form" class="ccm-search-block-form">
+  <input type="text" name="query" placeholder="Search" class="ccm-search-block-text desktop_search_text" id="search" placeholder="Search" title="search">
+  <span>
+  <input type="button" value="" class="search_button search_button_desktop" id="searchsubmit">
+  </span>
+</form>
+
+<a href="#" class="dclose"><img src="http://www.ariseprogram.org/concrete/themes/arise/images/x.png" /></a>
+
+</div>
+
+<style type="text/css">
+
+.desktop_search #search, .dclose{ display:none;}
+</style>
+
+
+</li></ul>
+                
+                </div>
+                <ul class="lang">
+                
+                
+                
+                
+                    <li><a class="selected" href="http://www.ariseprogram.org/en">EN</a></li>
+                    <li><a class="" href="http://www.ariseprogram.org/pt">PT</a></li>
+                </ul>
+                <div class="desktop_search_top_box">
+                <div class="desktop_search">
+                    <div class="mobile_only">
+<form action="/index.php/en/search/" method="get" class="ccm-search-block-form">
+  <input type="text" name="query" placeholder="Search"  class="ccm-search-block-text" id="search" title="search">
+  <span>
+  <input type="submit" value="" class="search_button" id="searchsubmit">
+  </span>
+</form>
+</div>
+
+<div class="dsearch">
+<form action="/index.php/en/search/" method="get" id="desktop_search_form" class="ccm-search-block-form">
+  <input type="text" name="query" placeholder="Search" class="ccm-search-block-text desktop_search_text" id="search" placeholder="Search" title="search">
+  <span>
+  <input type="button" value="" class="search_button search_button_desktop" id="searchsubmit">
+  </span>
+</form>
+
+<a href="#" class="dclose"><img src="http://www.ariseprogram.org/concrete/themes/arise/images/x.png" /></a>
+
+</div>
+
+<style type="text/css">
+
+.desktop_search #search, .dclose{ display:none;}
+</style>
+
+
+                    
+                </div>
+                </div>
+           </div>
+        </div>      <style>
+
+
+</style>
+<div class="sliders_outer">
+<div class="sliders">
+ 
+<style type="text/css">
+
+@media all and (min-width: 569px) and (max-width: 768px) {
+#wrapper .sliders_outer #banner.banner1226 {
+    background-image: url(/files/7913/9288/1665/tabelt.png) !important;
+}
+}
+
+</style>
+<div id="banner" class="banner1226" style="background-image: url(/files/3313/9143/1001/banner.jpg);">
+
+  <div class="mobile_only" > <img alt="" title=""src="/files/5413/9149/1075/sa.jpg" />
+    <div class="bannerContent">
+      <div class="orange">
+                <h1>Preventing and helping eliminate child labor</h1>
+        
+                 <h2><a href="http://www.ariseprogram.org/en/what-we-do/improve-education-opportunity-and-awareness/">Promoting access to quality education for children</a></h2>
+      </div>
+    
+       
+     
+    </div>
+  </div>
+  <div class="desktop_only">
+    <div class="bannerContent">
+      <div class="orange">
+                <h1>Preventing and helping eliminate child labor</h1>
+              </div>
+      <div class="green">
+        <h2><a href="http://www.ariseprogram.org/en/what-we-do/improve-education-opportunity-and-awareness/">Promoting access to quality education for children</a></h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ 
+<style type="text/css">
+
+@media all and (min-width: 569px) and (max-width: 768px) {
+#wrapper .sliders_outer #banner.banner1224 {
+    background-image: url(/files/4813/9479/6981/h
+1000
+omepage_banner_tablet_05.jpg) !important;
+}
+}
+
+</style>
+<div id="banner" class="banner1224" style="background-image: url(/files/3613/9445/4765/homepage_banner_05.jpg);">
+
+  <div class="mobile_only" > <img alt="" title=""src="/files/6513/9479/7910/homepage_banner_mobile_05.jpg" />
+    <div class="bannerContent">
+      <div class="orange">
+                <h1>Preventing and helping eliminate child labor</h1>
+        
+                 <h2><a href="http://www.ariseprogram.org/en/what-we-do/improve-education-opportunity-and-awareness/raise-awareness/">Raising awareness of the need to eliminate child labor</a></h2>
+      </div>
+    
+       
+     
+    </div>
+  </div>
+  <div class="desktop_only">
+    <div class="bannerContent">
+      <div class="orange">
+                <h1>Preventing and helping eliminate child labor</h1>
+              </div>
+      <div class="green">
+        <h2><a href="http://www.ariseprogram.org/en/what-we-do/improve-education-opportunity-and-awareness/raise-awareness/">Raising awareness of the need to eliminate child labor</a></h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ 
+<style type="text/css">
+
+@media all and (min-width: 569px) and (max-width: 768px) {
+#wrapper .sliders_outer #banner.banner1225 {
+    background-image: url(/files/6613/9479/6945/homepage_banner_tablet_15.jpg) !important;
+}
+}
+
+</style>
+<div id="banner" class="banner1225" style="background-image: url(/files/5713/9463/7007/homepage_banner_15.jpg);">
+
+  <div class="mobile_only" > <img alt="" title=""src="/files/7013/9479/7591/homepage_banner_mobile_15.jpg" />
+    <div class="bannerContent">
+      <div class="orange">
+                <h1>Preventing and helping eliminate child labor</h1>
+        
+                 <h2><a href="http://www.ariseprogram.org/en/what-we-do/increase-economic-empowerment-targeted-communities/">Economically empowering communities </a></h2>
+      </div>
+    
+       
+     
+    </div>
+  </div>
+  <div class="desktop_only">
+    <div class="bannerContent">
+      <div class="orange">
+                <h1>Preventing and helping eliminate child labor</h1>
+              </div>
+      <div class="green">
+        <h2><a href="http://www.ariseprogram.org/en/what-we-do/increase-economic-empowerment-targeted-communities/">Economically empowering communities </a></h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+        </div>
+
+</div>
+        
+        <div id="content" class="cfx homepage">
+            <div class="box cfx">
+                <div id="childdiv822" >
+    <p class="section">WHAT WE DO</p>
+
+    <p class="title">Our activities</p>
+
+    <p>Our activities aim to address the underlying root causes of child labor in the tobacco industry.</p>
+
+        <a class="readMore" href="http://www.ariseprogram.org/en/what-we-do/">Read more</a>
+    
+
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+    
+            $("#childdiv822").parent().attr('onclick',"window.location='http://www.ariseprogram.org/en/what-we-do/'").attr('style','cursor:pointer');
+        });
+</script>           </div>
+            <div class="box cfx">
+                <div id="childdiv666" >
+    <p class="section">WHERE WE WORK</p>
+
+    <p class="title">Brazil, Malawi, and Zambia</p>
+
+    <p>We reach thousands of children and their families.</p>
+
+        <a class="readMore" href="http://www.ariseprogram.org/en/our-partnership/">Read more</a>
+    
+
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+    
+            $("#childdiv666").parent().attr('onclick',"window.location='http://www.ariseprogram.org/en/our-partnership/'").attr('style','cursor:pointer');
+        });
+</script>           </div>
+            <div class="box cfx">
+                <div id="childdiv978" >
+    <p class="section">ABOUT ARISE</p>
+
+    <p class="title">Already making progress</p>
+
+    <p>Our activities are already creating positive and visible impacts.</p>
+
+        <a class="readMore" href="http://www.ariseprogram.org/en/about-arise/">Read more</a>
+    
+
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+    
+            $("#childdiv978").parent().attr('onclick',"window.location='http://www.ariseprogram.org/en/about-arise/'").attr('style','cursor:pointer');
+        });
+</script>           </div>
+        </div>
+
+
+
+
+
+
+        <div id="footer">
+            <div class="footerCo
+305
+ntent cfx">
+                <p>&copy; 2015 ARISE</p>
+                 <ul><li class=""><a href="/en/site-links/terms-conditions/" target="_self" class="">Terms & conditions</a></li><li class=""><a href="/en/site-links/privacy/" target="_self" class="">Privacy</a></li><li class=""><a href="/en/site-links/cookies/" target="_self" class="">Cookies</a></li><li class=""><a href="/en/site-links/sitemap/" target="_self" class="">Sitemap</a></li><li class=""><a href="/en/site-links/accessibility/" target="_self" class="">Accessibility</a></li></ul>                <div class="mobile_only  mobile_copyright">
+                <p>&copy; 2015 ARISE</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="/concrete/themes/arise/js/scripts.js"></script>
+
+</body>
+</html>
+0
+
+
+HTTP CRITICAL: HTTP/1.1 200 OK - string 'footerContent' not found on 'http://www.ariseprogram.org:80/' - 21322 bytes in 1.779 second response time |time=1.778529s;;;0.000000 size=21322B;;;0
