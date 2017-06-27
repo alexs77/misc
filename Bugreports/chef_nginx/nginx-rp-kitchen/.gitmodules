@@ -1,0 +1,30 @@
+[submodule "cookbooks/chef_nginx"]
+	path = cookbooks/chef_nginx
+	url = git@gitlab.unixsrv.everyware.zone:cookbooks/extern/chef_nginx.git
+[submodule "cookbooks/ssl_certificate-cookbook"]
+	path = cookbooks/ssl_certificate-cookbook
+	url = git@gitlab.unixsrv.everyware.zone:cookbooks/extern/ssl_certificate-cookbook.git
+[submodule "cookbooks/build-essential"]
+	path = cookbooks/build-essential
+	url = git@gitlab.unixsrv.everyware.zone:cookbooks/empty.git
+[submodule "cookbooks/ohai"]
+	path = cookbooks/ohai
+	url = git@gitlab.unixsrv.everyware.zone:cookbooks/extern/ohai.git
+[submodule "cookbooks/yum-epel"]
+	path = cookbooks/yum-epel
+	url = git@gitlab.unixsrv.everyware.zone:cookbooks/extern/yum-epel.git
+[submodule "cookbooks/compat_resource"]
+	path = cookbooks/compat_resource
+	url = git@gitlab.unixsrv.everyware.zone:cookbooks/extern/compat_resource.git
+[submodule "cookbooks/zypper"]
+	path = cookbooks/zypper
+	url = git@gitlab.unixsrv.everyware.zone:cookbooks/extern/zypper.git
+[submodule "cookbooks/seven_zip"]
+	path = cookbooks/seven_zip
+	url = git@gitlab.unixsrv.everyware.zone:cookbooks/extern/seven_zip.git
+[submodule "cookbooks/mingw"]
+	path = cookbooks/mingw
+	url = git@gitlab.unixsrv.everyware.zone:cookbooks/extern/mingw.git
+[submodule "cookbooks/windows"]
+	path = cookbooks/windows
+	url = git@gitlab.unixsrv.everyware.zone:cookbooks/extern/windows.git

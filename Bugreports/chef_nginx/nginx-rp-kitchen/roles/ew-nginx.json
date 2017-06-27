@@ -1,0 +1,17 @@
+{
+    "name": "ew-nginx",
+    "default_attributes": {
+        "nginx": [
+            {"install_method": "distro"}
+        ]
+    },
+
+    "override_attributes": {
+    },
+
+    "json_class": "Chef::Role",
+    "description": "EveryWare Nginx Server",
+    "chef_type": "role",
+
+    "run_list": [ "ew-nginx-rp" ]
+}
