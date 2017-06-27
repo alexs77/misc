@@ -10,7 +10,7 @@
     },
 
     "json_class": "Chef::Role",
-    "description": "EveryWare Nginx Server",
+    "description": "Nginx Server",
     "chef_type": "role",
 
     "run_list": [ "ew-nginx-rp" ]

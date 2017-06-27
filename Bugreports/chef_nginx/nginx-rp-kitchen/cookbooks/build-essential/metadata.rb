@@ -1,6 +1,6 @@
 name              'empty'
-maintainer        'EveryWare'
-maintainer_email  'alexander.skwar@everyware.ch'
+maintainer        'Alexander Skwar'
+maintainer_email  'a@skwar.me'
 license           'Apache 2.0'
 description       'Ein leeres Cookbook'
 long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))
